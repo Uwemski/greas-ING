@@ -23,10 +23,13 @@ body {
 .outer-layer {
     background: linear-gradient(to left, rgb(2, 2, 87), rgb(17, 17, 153));
     position: absolute;
-    top: 5%;
-    left: 5%;
+    top: 3%;
+    left: 1.5%;
     width: 95%;
     height: 95%;
-    border-radius: inherit; /*them still dey drag inheritance for here haha*/
+    border-radius: inherit; /*match the border radius of .main*/
+    z-index: 1;
+    pointer-events: none;
 
 }
+
