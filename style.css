@@ -32,7 +32,9 @@ body {
     color: white;
     box-shadow: 10px 10px 40px #000;
     animation-name: moveUp;
-    animation-duration: .3s;
+    animation-duration: 3s;
+    animation-timing-function: ease-out;
+
 }
 
 p {
@@ -53,12 +55,13 @@ p {
     height: 40vh;
     padding: 5px;
 
-
+    translate: all 3s;
     border-radius: 5px;
+    box-shadow: 0px 1.5rem 2.5rem rgba(0, 0, 0, 0.507);
 }
 
 .dirtyDiana:hover {
-    transform: translateY(10px);
+    transform: scaleX(1.5);
     translate: .4s;
 }
 
@@ -99,7 +102,7 @@ p {
     border-radius: 5px;
     margin-bottom: 25px;
 
-    translate: 3s;
+    translate: all .5s;
     
 }
 
@@ -114,16 +117,21 @@ p {
     transform: translateY(-8px);
     box-shadow: 10px 10px 32px purple;
 }
-
+.generator:active {
+    transform: translateY(-4px);
+    box-shadow: 10px 8px 20px purple;
+}
 
 p { text-align: center;}
-
 
 @keyframes moveUp {
     0% {
         opacity: 0; transform: translateY(2rem);
     }
 
+    60% {
+        opacity: .6; transform: translateX(1.5rem);
+    }
 
     100% {
         opacity: 1; transform: translate(0);
