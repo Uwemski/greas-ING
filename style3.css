@@ -32,17 +32,22 @@ body {
     cursor: context-menu;
 }
 
-.menu-bar:hover {
+.menu-bar:hover, .menu-bar--special {
     background-color: black;
     color: white;
 }
+
+/*.menu-bar--special {
+    background-color: black;
+    color: white;
+}*/
 
 .middle { 
     background-color: indianred;
     height: 72vh;
 
     position: relative;
-    padding-top: -.5rem;
+   
 }
 
 .text-box {
