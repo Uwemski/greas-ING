@@ -9,11 +9,13 @@ html {
 }
 
 body {
-
-    
     font-family: "Lato", sans-serif;
-    background-color: floralwhite;
+    background-color: #f4f4f9;
     color: black;
+}
+
+.top-nav {
+    margin-top: -1rem;
 }
 
 .top-nav--bar { 
@@ -47,6 +49,7 @@ body {
     height: 72vh;
 
     position: relative;
+    margin-top: -1.7rem;
    
 }
 
@@ -74,7 +77,16 @@ form {
     flex-direction: row;
     justify-content: space-evenly;
     
-    width: 100%;
-    padding: 40px;
+    align-items: center;
 }
 
+.container-box__5 {
+    background-color: blue;
+    height: 5rem;
+
+}
+
+.plsWork{
+    font-size: 2rem;
+    font-weight: 600;
+}
