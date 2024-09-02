@@ -126,20 +126,47 @@ input {
     position: fixed;
     z-index: 1;
     top: 4.4rem;
-    left: 65%;
-    height: 30%;
+    left: 73%;
+    height: 25%;
     width: 100%;
 
     flex-direction: row;
+    padding: 0rem 4.2rem;
 }
 
 .items {
     background-color: #fff;
     
-    padding: 10px 20px;
+    padding: 1rem 2.5rem;
+    overflow: hidden;
 }
-
+ 
 .popUpText {
     font-size: 1.2rem;
     margin-bottom: .5rem;
+}
+
+
+.btn2{
+    text-decoration: none;
+    text-transform: capitalize;
+    padding: 1rem 2.3rem;
+}
+
+a {
+    display: block;
+    margin-top: 3rem; 
+}
+
+.btn2--sI {
+    background-color: black;
+    color: white;
+}
+
+.btn2--cA {
+    /*color: black;*/
+    border: 1px solid grey;
+    background-image: linear-gradient(to right, rgba(205, 92, 92, 0.801), rgba(230, 41, 41, 0.493));
+    -webkit-background-clip: text;
+    color: transparent;
 }
