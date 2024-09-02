@@ -125,15 +125,21 @@ input {
     display: flex;
     position: fixed;
     z-index: 1;
-    top: 70px;
+    top: 4.4rem;
     left: 65%;
     height: 30%;
     width: 100%;
+
+    flex-direction: row;
 }
 
 .items {
-    background-color: #000;
+    background-color: #fff;
     
     padding: 10px 20px;
-    color: white;
+}
+
+.popUpText {
+    font-size: 1.2rem;
+    margin-bottom: .5rem;
 }
